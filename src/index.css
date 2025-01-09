@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  scroll-behavior: smooth;
+}
+
+
+
+.container {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
